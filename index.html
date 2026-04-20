@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Invitación Especial 💖</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="Invitacion.css">
+</head>
+
+<body>
+
+    <!-- TARJETA PRINCIPAL -->
+    <div class="card" id="carta">
+        <h1>💖 Invitación Especial 💖</h1>
+
+        <p>
+            Hola love 😊<br><br>
+            Me encantaría tener el placer de cenar con el hada de agua unas hamburguesas hoy ¿estas?
+        </p>
+
+        <!-- BOTONES -->
+        <button class="yes" onclick="confirmar()">Sí, quiero 💘</button>
+        <button id="btnNo" class="no" onmouseover="escapar()" onclick="rechazar()">No 😢</button>
+    </div>
+
+    <!-- OVERLAY ROMÁNTICO -->
+    <div class="hidden" id="overlay" class="hidden">
+        <img src="./Recursos imagenes/palta.png" class="overlay-img" alt="palta say">
+    </div>
+
+    <!-- ERROR BOX -->
+    <div id="errorBox" class="card hidden">
+        <h2>⚠️ Error 404 ⚠️</h2>
+        <p>La opción "No" no está disponible en este sistema 😌</p>
+        <button onclick="cerrarError()">Intentar de nuevo</button>
+    </div>
+
+    <!-- JS -->
+    <script src="Invitacion.js"></script>
+
+</body>
+</html>/
