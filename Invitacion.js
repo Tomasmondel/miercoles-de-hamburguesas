@@ -15,7 +15,7 @@ function confirmar() {
 
     setTimeout(() => {
         let numero = "5491126536068";
-        let mensaje = encodeURIComponent("Hola tomi terra, vamos a comer hamburguesas");
+        let mensaje = encodeURIComponent("dejame ver mi agenda y vamos hablando primi");
 
         window.open(`https://wa.me/${numero}?text=${mensaje}`, '_blank');
     }, 3000);
